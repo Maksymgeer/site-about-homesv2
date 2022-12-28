@@ -1,0 +1,20 @@
+@media (max-width: 1330px) {
+	.info__container {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.texts-info {
+		margin-top: 50px;
+		width: 100%;
+	}
+}
+
+
+
+
+@media (max-width: 705px) {
+	.header__text_decor-2 {
+		font-size: 27px !important;
+		line-height: 45px !important;
+	}
+}

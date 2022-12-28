@@ -1,0 +1,55 @@
+@import "fonts";
+@import "./libs/slick.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/footer.scss";
+@import "blocks/params.scss";
+@import "blocks/global.scss";
+@import "blocks/reset.scss";
+@import "blocks/media.scss";
+
+// ABOUT //
+@import "about/header.scss";
+@import "about/nav.scss";
+@import "about/media.scss";
+
+// CONTACT //
+@import "contact/header.scss";
+@import "contact/nav.scss";
+@import "contact/media.scss";
+
+
+// GALERRY //
+@import "gallery/header.scss";
+@import "gallery/nav.scss";
+@import "gallery/media.scss";
+
+// NEWS //
+@import "news/header.scss";
+@import "news/nav.scss";
+@import "news/media.scss";
+
+
+// DETAILS //
+@import "details/header.scss";
+@import "details/nav.scss";
+@import "details/media.scss";
+
+
+// CAREER //
+@import "career/header.scss";
+@import "career/nav.scss";
+@import "career/media.scss";
+
+
+// STORY //
+@import "story/header.scss";
+@import "story/nav.scss";
+@import "story/media.scss";
+
+
+// SERVICES //
+@import "services/header.scss";
+@import "services/nav.scss";
+@import "services/media.scss";
+

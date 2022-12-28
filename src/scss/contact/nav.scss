@@ -1,0 +1,111 @@
+.info {
+	padding: 100px 0px;
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__img {
+		max-width: 100%;
+	}
+}
+
+.texts-info {
+	&__title {
+		@extend %styletitle;
+		padding-bottom: 24px;
+	}
+	padding: 44px 39px 35px 34px;
+	background: #f5f5f5;
+}
+
+.form-info {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 16px;
+
+	&__input-1 {
+		padding: 12px 20px 11px 20px;
+		max-width: 100%;
+		width: 340px;
+		height: 50px;
+		&::placeholder {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 170%;
+			color: rgba(0, 0, 0, 0.4);
+		}
+	}
+	&__input-2 {
+		padding: 12px 20px 11px 20px;
+		height: 50px;
+		max-width: 100%;
+		width: 340px;
+		&::placeholder {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 170%;
+			color: rgba(0, 0, 0, 0.4);
+		}
+	}
+
+	&__input-3 {
+		padding: 12px 20px 10px 20px;
+		margin-bottom: 16px;
+		height: 183px;
+		width: 696px;
+		&::placeholder {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 170%;
+			color: rgba(0, 0, 0, 0.4);
+		}
+	}
+	&__input_style {
+	}
+
+	&__btn {
+		@extend %stylebtn;
+		padding: 22px 40px;
+	}
+}
+
+// Message //
+
+.message {
+	&__title {
+		@extend %styletitle;
+		padding-bottom: 32px;
+		text-align: center;
+	}
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__body {
+		display: flex;
+		gap: 32px;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	&__btn {
+		padding: 22px 47px;
+		@extend %stylebtn;
+	}
+
+	&__btn_style {
+		padding: 22px 36px;
+	}
+	&__btn_style2 {
+		padding: 22px 42px;
+	}
+}

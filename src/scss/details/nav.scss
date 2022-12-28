@@ -1,0 +1,139 @@
+.house {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.house__img {
+	max-width: 100%;
+}
+
+.box-house {
+	margin-right: 39px;
+	&__title {
+		@extend %styletitle;
+		padding-bottom: 16px;
+	}
+
+	&__text {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 170%;
+		color: #434343;
+	}
+
+	&__subtexts {
+		display: flex;
+		column-gap: 62px;
+		margin-top: 16px;
+	}
+
+	&__subtext {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 170%;
+		color: #056088;
+	}
+}
+
+.video {
+	&_retreat {
+		padding-bottom: 96px;
+		margin-bottom: -240px;
+	}
+	&__inner {
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	&__txt {
+		min-width: 416px;
+		position: absolute;
+		bottom: -18px;
+		right: 0;
+		background: linear-gradient(1.17deg, #023957 -19.65%, #056088 93.67%);
+		padding: 32px 67px 39px 53px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 180%;
+		color: #ffffff;
+	}
+}
+
+.video__inner_bg {
+	background-image: url("../img/details-video.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-width: 1080px;
+		height: 512px;
+}
+
+.bg-center {
+	height: 472px;
+	background-image: url("../img/about-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel {
+	margin-top: -200px;
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__box {
+		display: flex !important;
+		gap: 20px;
+	}
+
+	&__title {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 170%;
+		color: #ffffff;
+		margin-bottom: 32px;
+	}
+}
+
+.slick-dots {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: -32px;
+
+	li {
+		display: inline-block;
+		margin: 0px 10px;
+	}
+
+	button {
+		padding: 0;
+		border: none;
+		background-color: #e7e7e7;
+		cursor: pointer;
+		border-radius: 50%;
+		width: 12px;
+		height: 12px;
+
+		font-size: 0;
+	}
+}
+
+.slick-active {
+	button {
+		background: #023957;
+	}
+}
